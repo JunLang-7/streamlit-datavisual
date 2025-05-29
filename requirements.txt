@@ -1,0 +1,4 @@
+stremlit
+numpy
+pandas
+plotly
