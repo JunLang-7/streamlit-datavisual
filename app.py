@@ -359,10 +359,3 @@ st.markdown("""
    - 附带故事的二手商品溢价达20-50%
 """)
 
-# 添加数据下载功能
-st.sidebar.download_button(
-    label="下载数据",
-    data=df.to_csv().encode('utf-8'),
-    file_name='新二手经济研究数据.csv',
-    mime='text/csv'
-)
